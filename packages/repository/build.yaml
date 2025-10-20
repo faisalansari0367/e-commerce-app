@@ -1,0 +1,14 @@
+targets:
+  $default:
+    builders:
+      freezed:
+        options:
+          equal: true
+          when: false
+          map: false
+          copyWith: true
+          toJson: true
+          fromJson: true
+      json_serializable:
+        options:
+          explicit_to_json: true
