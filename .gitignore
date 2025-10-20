@@ -1,0 +1,78 @@
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+flutter_*.png
+
+# Android
+android/.gradle/
+android/app/build/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+android/gradle/
+android/.gradle/
+android/gradle.properties
+android/gradle-wrapper.properties
+android/build/
+
+# iOS/macOS
+ios/Pods/
+ios/Podfile.lock
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcshareddata/
+ios/RunnerTests/
+macos/Pods/
+macos/Podfile.lock
+macos/Flutter/ephemeral/
+macos/Runner.xcworkspace/
+macos/Runner.xcodeproj/project.xcworkspace/
+macos/Runner.xcodeproj/xcshareddata/
+macos/RunnerTests/
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Xcode
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj
+*.xcassets
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Other
+*.log
+*.tmp
+*.swp
+
+# Packages
+packages/*/.dart_tool/
+packages/*/build/
+packages/*/.pub/
+packages/*/pubspec.lock
+packages/*/pubspec.yaml
+packages/*/analysis_options.yaml
+packages/*/README.md
+packages/*/CHANGELOG.md
+packages/*/LICENSE
+
+# Ignore test outputs
+coverage/
+
+# Ignore environment files
+.env
+.env.*
